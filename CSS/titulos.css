@@ -74,6 +74,17 @@
   width: 100px;
   height: 100px;
 }
+.clubDescriptionContentTitle{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  background-color: #292929;
+  margin: 0;
+  font-size: 20px;
+}
+.cardPrincipaltitle{
+  font-size: 25px;
+}
 .mainContent{
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -105,15 +116,18 @@
   width: 170px;
   height: 100px;
 }
+a{
+  text-decoration: none;
+}
 .footerContent{
   width: 100%;
-  height: 100px;
+  min-height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: black;
   flex-wrap: wrap;
-  gap:  8px 10px;
+  gap: 8px 15px;
 }
 .footerContentImg{
   width: 50px;
@@ -166,6 +180,9 @@
     width: 100px;
     height: 70px;
   }
+  .clubDescription{
+    align-items: center;
+  }
 }
 @media (max-width: 560px){
   
@@ -190,8 +207,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0px;
   }
   .clubDescription{
+    align-items: center;
+  }
+  .footerContent{
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 }
