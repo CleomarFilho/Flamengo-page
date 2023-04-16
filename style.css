@@ -7,6 +7,11 @@
   color: white;
   font-family: 'roboto';
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 .conteiner{
   min-height: 100vh;
   display: flex;
