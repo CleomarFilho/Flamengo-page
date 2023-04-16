@@ -178,6 +178,9 @@ a{
     width: 100px;
     height: 70px;
   }
+  .clubDescription{
+    align-items: center;
+  }
 }
 @media (max-width: 560px){
   
