@@ -30,6 +30,7 @@ html, body {
   background-color: black;
   flex-wrap: wrap;
   gap: 8px 15px;
+  border-bottom: 2px solid white;
 }
 .headerContentImg{
   width: 50px;
@@ -127,13 +128,14 @@ a{
 }
 .footerContent{
   width: 100%;
-  height: 40spx;
+  min-height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: black;
   flex-wrap: wrap;
   gap:  8px 10px;
+  border-top: 2px solid white;
 }
 .footerContentImg{
   width: 50px;

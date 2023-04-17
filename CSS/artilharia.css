@@ -30,6 +30,7 @@ html, body {
   background-color: black;
   flex-wrap: wrap;
   gap: 8px 15px;
+  border-bottom: 2px solid white;
 }
 .headerContentImg{
   width: 50px;
@@ -152,6 +153,7 @@ a{
   background-color: black;
   flex-wrap: wrap;
   gap: 8px 15px;
+  border-top: 2px solid white;
 }
 .footerContentImg{
   width: 50px;
