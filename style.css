@@ -11,6 +11,8 @@ html, body {
   margin: 0;
   padding: 0;
   border: none;
+  min-width: 280px;
+  min-height: 417px;
 }
 .conteiner{
   min-height: 100vh;
