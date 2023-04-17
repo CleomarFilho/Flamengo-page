@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'roboto';
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.conteiner{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='505' height='60.6' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='11.7' stroke-opacity='0.31'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+.headerContent{
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  flex-wrap: wrap;
+  gap: 8px 15px;
+}
+.headerContentImg{
+  width: 50px;
+  height: 50px;
+}
+.headerLogoTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.headerContentButton{
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  
+}
+.buttonHeader{
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.buttonHeader:hover{
+  border: 2px solid white;
+}
+.navTitle{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  background-color: #292929;
+  margin: 0;
+  font-size: 20px;
+}
+
+.clubDescription{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+.clubDescriptionContent{
+  margin: 8px;
+}
+.clubDescriptionImg{
+  width: 100px;
+  height: 100px;
+}
+.clubDescriptionContentTitle{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  background-color: #292929;
+  margin: 0;
+  font-size: 20px;
+}
+.cardPrincipalDescription{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+.cardPrincipaltitle{
+  font-size: 25px;
+}
+.cardPrincipalList{
+  padding: 20px;
+}
+.cardPrincipalImg{
+  width: 200px;
+  height: 140px;
+}
+.mainContent{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "cardPrincipal sideBar";
+  padding: 20px;
+  gap: 50px;
+  flex: 1 0 auto;
+}
+.sideBar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  
+}
+.sideBarContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid transparent;
+  transition: 0.4s;
+  border-radius: 10px;
+  padding: 10px;
+}
+.sideBarContent:hover{
+  border: 2px solid white;
+}
+.sideBarImg{
+  width: 170px;
+  height: 100px;
+}
+a{
+  text-decoration: none;
+}
+.footerContent{
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  flex-wrap: wrap;
+  gap: 8px 15px;
+}
+.footerContentImg{
+  width: 50px;
+  height: 50px;
+}
+.footerLogoTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.footerContentButton{
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  
+}
+.buttonFooter{
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.buttonFooter:hover{
+  border: 2px solid white;
+}
+@media (max-width: 860px){
+  .mainContent{
+    
+    grid-template-areas:
+    "carPrincipal"
+    "sideBar";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .cardPrincipal{
+    border-bottom: 2px solid white;
+  }
+    
+  .sideBar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+  }
+  .sideBarImg{
+    width: 100px;
+    height: 70px;
+  }
+  .clubDescription{
+    align-items: center;
+  }
+}
+@media (max-width: 560px){
+  
+  .cardPrincipalDescription{
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+  }
+  .cardPrincipalImg{
+    width: 170px;
+    height: 110px;
+  }
+  .cardPrincipalIndividual{
+    align-items: center;
+  }
+  .sideBar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+  }
+  .sideBarImg{
+    width: 170px;
+    height: 100px;
+  }
+  .headerContentImg{
+    width: auto;
+    height: 50px;
+  }
+}
+@media (max-width:360px){
+  .headerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .clubDescription{
+    align-items: center;
+  }
+  .footerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
